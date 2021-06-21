@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<h1 style="background:color=red">
+</head>
+<style>
+
+ul{
+
+list-style-type:none;
+position:absolute;
+font-family:fantasy;
+
+}
+
+li{
+display:inline-block;
+float:left;
+margin-right:70px;
+
+}
+li a{
+min-width:200px;
+color:green;
+background:#2f3036;
+}
+li:hover ul a{
+background:#15c985;
+color:#fff;
+}
+li ul{
+display:none;
+}
+ul li a:hover + .hidden, .hidden:hover
+{display:block;
+}
+</style>
+<body>
+
+<div id="div_header">
+<ul>
+<li><a herf="#">HOME</a></li>
+<li><a herf="#">SERVICES</a></li>
+<li><a herf="#">ABOUT US</a></li>
+
+<ul class="hidden>
+
+<ul><li> <a herf="#">IT CONSULATION</a>
+<ul class="hidden>
+
+<li> <a herf="#">WEB DEVELOPMENT</a>
+<ul class="hidden>
+
+<li> <a herf="#">MBILE APP</a>
+</ul>
+</li>
+<li><a herf="#">CONTECT US</a></li>	
+</ul>
+</div>
+
+</body>
+
+</html>
